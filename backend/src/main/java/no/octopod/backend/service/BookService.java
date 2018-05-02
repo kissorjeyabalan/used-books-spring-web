@@ -57,7 +57,8 @@ public class BookService {
 
     public void deleteBook(Book book) {
         if (book.getId() != null) {
-            em.remove(book);
+            Book attached = em.merge(book);
+            em.remove(attached);
         }
     }
 

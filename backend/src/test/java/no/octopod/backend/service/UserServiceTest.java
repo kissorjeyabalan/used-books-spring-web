@@ -52,6 +52,8 @@ public class UserServiceTest extends ServiceTestBase {
         assertNotNull(user);
         assertEquals(user.getId(), user2.getId());
         assertEquals(email, user2.getEmail());
+        assertEquals(user.getFirstName(), user2.getFirstName());
+        assertEquals(user.getLastName(), user2.getLastName());
     }
 
     @Test

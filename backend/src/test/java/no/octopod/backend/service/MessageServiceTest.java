@@ -112,6 +112,8 @@ public class MessageServiceTest extends ServiceTestBase {
         List<Message> messages = messageService.getMessagesBetween(user1.getId(), user2.getId());
         assertEquals(4, messages.size());
 
+        assertEquals(user1.getId(), messages.get(0).getSender());
+        assertEquals(user2.getId(), messages.get(0).getRecipient());
         assertEquals(msg1, messages.get(0).getContent());
         assertEquals(msg2, messages.get(1).getContent());
         assertEquals(msg3, messages.get(2).getContent());

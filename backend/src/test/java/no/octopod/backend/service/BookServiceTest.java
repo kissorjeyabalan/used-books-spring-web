@@ -99,6 +99,35 @@ public class BookServiceTest extends ServiceTestBase {
         booksForSale = bookService.getAllBooksWithSellers();
         assertEquals(0, booksForSale.size());
     }
+
+    @Test
+    public void testBookDeletion() {
+        Book book = bookService.createBook("190233850", "Book for deletion", getAuthors("FDKD"), "FXL");
+        Book book2 = bookService.createBook("190231850", "Book for deletion 2", getAuthors("FDKD"), "FXL");
+        assertNotNull(book.getId());
+        assertNotNull(book2.getId());
+
+        long id1 = book.getId();
+        long id2 = book2.getId();
+
+        bookService.deleteBook(book);
+        bookService.deleteBook(book2.getId());
+
+        assertNull(bookService.getBook(id1));
+        assertNull(bookService.getBook(id2));
+
+    }
+    @Test
+    public void testBookProperlyInitialized() {
+        Book book = bookService.createBook("543532454", "Book for books", getAuthors("UXK"), "FLS43");
+        Book fromDb = bookService.getBook(book.getId());
+
+        assertEquals("Book for books", fromDb.getTitle());
+        assertEquals("UXK", fromDb.getAuthors().get(0));
+        assertEquals("FLS43", fromDb.getCourse());
+        assertEquals("543532454", fromDb.getIsbn());
+
+    }
     private ArrayList<String> getAuthors(String... authors) {
         return new ArrayList<>(Arrays.asList(authors));
     }

@@ -33,12 +33,9 @@ public class Book {
         authors = new ArrayList<>();
         sellers = new ArrayList<>();
     }
+
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getTitle() {
@@ -75,9 +72,5 @@ public class Book {
 
     public List<User> getSellers() {
         return sellers;
-    }
-
-    public void setSellers(List<User> sellers) {
-        this.sellers = sellers;
     }
 }

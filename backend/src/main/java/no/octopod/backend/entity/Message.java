@@ -28,10 +28,6 @@ public class Message {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Long getSender() {
         return sender;
     }
@@ -58,9 +54,5 @@ public class Message {
 
     public Date getTimestamp() {
         return timestamp;
-    }
-
-    public void setTimestamp(Date timestamp) {
-        this.timestamp = timestamp;
     }
 }
