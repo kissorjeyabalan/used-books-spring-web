@@ -3,6 +3,7 @@ package no.octopod.backend.entity;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
@@ -11,10 +12,10 @@ public class Message {
     @Id @GeneratedValue
     private Long id;
 
-    @NotBlank
+    @NotNull
     private Long sender;
 
-    @NotBlank
+    @NotNull
     private Long recipient;
 
     @NotBlank @Size(min = 1, max = 800)

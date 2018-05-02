@@ -28,21 +28,21 @@ public class MessageService {
 
     public List<Message> getMessagesSent(Long senderId) {
         TypedQuery<Message> query =
-                em.createQuery("select m from Message m where m.sender=?1", Message.class);
+                em.createQuery("select m from Message m where m.sender=?1 order by m.timestamp DESC", Message.class);
         query.setParameter(1, senderId);
         return query.getResultList();
     }
 
     public List<Message> getMessagesReceived(Long recipientId) {
         TypedQuery<Message> query =
-                em.createQuery("select m from Message m where m.recipient=?1", Message.class);
+                em.createQuery("select m from Message m where m.recipient=?1 order by m.timestamp DESC", Message.class);
         query.setParameter(1, recipientId);
         return query.getResultList();
     }
 
     public List<Message> getMessagesBetween(Long user1, Long user2) {
         TypedQuery<Message> query =
-                em.createQuery("select m from Message m where m.sender=?1 and m.recipient=?2 or m.sender=?2 and m.recipient=?1",
+                em.createQuery("select m from Message m where m.sender=?1 and m.recipient=?2 or m.sender=?2 and m.recipient=?1 order by m.timestamp ASC",
                         Message.class);
         query.setParameter(1, user1);
         query.setParameter(2, user2);
