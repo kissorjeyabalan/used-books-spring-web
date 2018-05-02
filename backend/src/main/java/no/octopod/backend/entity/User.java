@@ -1,5 +1,7 @@
 package no.octopod.backend.entity;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -25,7 +27,7 @@ public class User {
     @NotBlank @Size(min = 2, max = 28)
     private String lastName;
 
-    @ManyToMany
+    @ManyToMany @LazyCollection(LazyCollectionOption.FALSE)
     private List<Book> booksForSale;
 
     public User() {}

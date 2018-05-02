@@ -8,12 +8,10 @@ import org.springframework.stereotype.Service;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
-import java.util.List;
 
 @Service
 @Transactional
 public class UserService {
-    public static final Long EMAIL_ALREADY_IN_USE = -128L;
 
     @Autowired
     private EntityManager em;
@@ -21,7 +19,7 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public Long createUser(String email, String password, String firstName, String lastName) {
+    public User createUser(String email, String password, String firstName, String lastName) {
         String hashedPassword = passwordEncoder.encode(password);
 
         TypedQuery<Long> duplicateUserQuery =
@@ -30,7 +28,7 @@ public class UserService {
         long size = duplicateUserQuery.getSingleResult();
 
         if (size > 0) {
-            return UserService.EMAIL_ALREADY_IN_USE;
+            return null;
         }
 
         User user = new User();
@@ -41,7 +39,7 @@ public class UserService {
 
         em.persist(user);
 
-        return user.getId();
+        return user;
     }
 
     public User getUser(String email) {
@@ -55,4 +53,6 @@ public class UserService {
     public User getUser(long id) {
         return em.find(User.class, id);
     }
+
+    public User updateUser(User user) { return em.merge(user); }
 }

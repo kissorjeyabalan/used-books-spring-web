@@ -2,62 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5529b5-6300-4f21-a24e-507739a8935e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/PasswordConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/CoreTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_es.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_ko.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_nl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_no.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt_BR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_tr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_TW.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/applicationContext-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ehcache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/mail.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext-validation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/menu-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/urlrewrite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules-custom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/common/menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/sample-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/web-tests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usedbooks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +25,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/usedbooks$UserServiceTest_and_1_more.ic" NAME="UserServiceTest and 1 more Coverage Results" MODIFIED="1525275884445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/usedbooks$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1525268165361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>no.octopod.backend.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/usedbooks$BookServiceTest.ic" NAME="BookServiceTest Coverage Results" MODIFIED="1525273120879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.octopod.backend.service.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java">
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="299">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +87,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>1.5</find>
+      <find>user</find>
+      <find>public book</find>
+      <find>list</find>
+      <find>maven-compile</find>
+      <find>maven-compiler-plugin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,11 +103,17 @@
         <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/AppEntry.java" />
         <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/ResetService.java" />
-        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" />
-        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/BookServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java" />
       </list>
     </option>
   </component>
@@ -126,6 +122,29 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UsedBooks Backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UsedBooks Backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -150,21 +169,29 @@
           <expand>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -172,6 +199,7 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -180,6 +208,7 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -189,6 +218,7 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -199,6 +229,7 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -210,6 +241,7 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -221,46 +253,52 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="no" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="no" type="462c0819:PsiDirectoryNode" />
-              <item name="octopod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="no" type="462c0819:PsiDirectoryNode" />
               <item name="octopod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -304,11 +342,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest and 1 more">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
         <pattern>
@@ -319,7 +357,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
-      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.BookServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -331,7 +369,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.testCreateDuplicateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.testCreateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
         <pattern>
@@ -342,8 +380,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
-      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreateDuplicateUser" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testCreateBook" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -354,7 +392,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.testGetAllBooksWithSellers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
         <pattern>
@@ -365,8 +403,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
-      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetAllBooksWithSellers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -377,7 +415,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.testCreateUserEmailViolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.testToggleBookSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
         <pattern>
@@ -388,8 +426,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
-      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testCreateUserEmailViolation" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testToggleBookSale" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -400,20 +438,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.octopod.backend.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
-      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testGetUserById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="pattern" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -421,7 +453,10 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <patterns />
+      <patterns>
+        <pattern testClass="no.octopod.backend.service.UserServiceTest" />
+        <pattern testClass="no.octopod.backend.service.BookServiceTest" />
+      </patterns>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -472,19 +507,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserServiceTest.testCreateUser" />
-      <item itemvalue="JUnit.UserServiceTest.testCreateDuplicateUser" />
-      <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
-      <item itemvalue="JUnit.UserServiceTest.testCreateUserEmailViolation" />
-      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.BookServiceTest.testGetAllBooksWithSellers" />
+      <item itemvalue="JUnit.BookServiceTest" />
+      <item itemvalue="JUnit.BookServiceTest.testCreateBook" />
+      <item itemvalue="JUnit.BookServiceTest.testToggleBookSale" />
+      <item itemvalue="JUnit.UserServiceTest and 1 more" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.testCreateUserEmailViolation" />
-        <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
-        <item itemvalue="JUnit.UserServiceTest.testCreateDuplicateUser" />
-        <item itemvalue="JUnit.UserServiceTest.testCreateUser" />
+        <item itemvalue="JUnit.UserServiceTest and 1 more" />
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.testToggleBookSale" />
+        <item itemvalue="JUnit.BookServiceTest.testGetAllBooksWithSellers" />
+        <item itemvalue="JUnit.BookServiceTest.testCreateBook" />
       </list>
     </recent_temporary>
   </component>
@@ -498,81 +533,84 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525265522326</updated>
-      <workItem from="1525265523643" duration="2722000" />
+      <workItem from="1525265523643" duration="11091000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 10m 39s.xml">
-      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    <history-entry file="BookServiceTest - 2018.05.02 at 17h 26m 06s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 23m 51s.xml">
-      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    <history-entry file="BookServiceTest_testCreateBook - 2018.05.02 at 17h 27m 02s.xml">
+      <configuration name="BookServiceTest.testCreateBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 26m 12s.xml">
-      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    <history-entry file="BookServiceTest - 2018.05.02 at 17h 27m 11s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateDuplicateUser - 2018.05.02 at 15h 26m 17s.xml">
-      <configuration name="UserServiceTest.testCreateDuplicateUser" configurationId="JUnit" />
+    <history-entry file="BookServiceTest_testGetAllBooksWithSellers - 2018.05.02 at 17h 31m 21s.xml">
+      <configuration name="BookServiceTest.testGetAllBooksWithSellers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateDuplicateUser - 2018.05.02 at 15h 27m 23s.xml">
-      <configuration name="UserServiceTest.testCreateDuplicateUser" configurationId="JUnit" />
+    <history-entry file="BookServiceTest - 2018.05.02 at 17h 31m 40s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetUserById - 2018.05.02 at 15h 32m 44s.xml">
-      <configuration name="UserServiceTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="BookServiceTest_testToggleBookSale - 2018.05.02 at 17h 42m 02s.xml">
+      <configuration name="BookServiceTest.testToggleBookSale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateUserEmailViolation - 2018.05.02 at 15h 35m 18s.xml">
-      <configuration name="UserServiceTest.testCreateUserEmailViolation" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_and_1_more - 2018.05.02 at 17h 42m 32s.xml">
+      <configuration name="UserServiceTest and 1 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testCreateUserEmailViolation - 2018.05.02 at 15h 35m 57s.xml">
-      <configuration name="UserServiceTest.testCreateUserEmailViolation" configurationId="JUnit" />
+    <history-entry file="BookServiceTest - 2018.05.02 at 17h 43m 28s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest - 2018.05.02 at 15h 36m 10s.xml">
-      <configuration name="UserServiceTest" configurationId="JUnit" />
+    <history-entry file="BookServiceTest - 2018.05.02 at 17h 44m 26s.xml">
+      <configuration name="BookServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_and_1_more - 2018.05.02 at 17h 44m 53s.xml">
+      <configuration name="UserServiceTest and 1 more" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2722000" />
+    <option name="totallyTimeSpent" value="11091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" sideWeight="0.5010593" side_tool="true" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="3840" y="45" width="1920" height="1035" id="Messages" type="WINDOWED" weight="0.32944915" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" x="4242" y="399" width="1480" height="552" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32944915" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.24147122" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32944915" />
-      <window_info id="Persistence" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894068" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" weight="0.32944915" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49894068" visible="true" weight="0.19296375" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Structure" order="6" sideWeight="0.50211865" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.3993644" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" x="3840" y="45" width="1920" height="1035" id="Messages" order="3" type="WINDOWED" weight="0.32944915" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" x="4140" y="363" width="1480" height="552" id="Run" order="11" type="WINDOWED" visible="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5010593" side_tool="true" weight="0.19296375" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32944915" />
+      <window_info id="Persistence" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49788135" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="4" sideWeight="0.50211865" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,38 +623,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/AppEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/ResetService.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/test/java/CoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,57 +633,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="1028">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="230">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        <state relative-caret-position="522">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="294">
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/AppEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/BookServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="-63">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,11 +806,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|backend</last-edited>
+          <last-edited>used-books</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

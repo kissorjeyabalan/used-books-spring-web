@@ -2,10 +2,9 @@ package no.octopod.backend.entity;
 
 import org.hibernate.validator.constraints.NotBlank;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
+import java.util.Date;
 
 @Entity
 public class Message {
@@ -16,10 +15,13 @@ public class Message {
     private Long sender;
 
     @NotBlank
-    private Long receiver;
+    private Long recipient;
 
     @NotBlank @Size(min = 1, max = 800)
     private String content;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date timestamp;
 
     public Long getId() {
         return id;
@@ -37,12 +39,12 @@ public class Message {
         this.sender = sender;
     }
 
-    public Long getReceiver() {
-        return receiver;
+    public Long getRecipient() {
+        return recipient;
     }
 
-    public void setReceiver(Long receiver) {
-        this.receiver = receiver;
+    public void setRecipient(Long receiver) {
+        this.recipient = receiver;
     }
 
     public String getContent() {
@@ -51,5 +53,13 @@ public class Message {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
     }
 }

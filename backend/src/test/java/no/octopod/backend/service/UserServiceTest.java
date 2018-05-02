@@ -10,6 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.validation.ConstraintViolationException;
 
+import static junit.framework.TestCase.assertNull;
 import static junit.framework.TestCase.fail;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -24,32 +25,33 @@ public class UserServiceTest extends ServiceTestBase {
 
     @Test
     public void testCreateUser() {
-        Long id = userService.createUser("foo@bar.com", "password",
+        User user = userService.createUser("foo@bar.com", "password",
                 "first", "last");
-        assertNotNull(id);
+        assertNotNull(user);
+        assertNotNull(user.getId());
     }
 
     @Test
     public void testCreateDuplicateUser() {
         String email = "foo@bar.com";
 
-        Long id = userService.createUser(email, "password", "first", "last");
-        Long id2 = userService.createUser(email, "password", "first", "two");
+        User user = userService.createUser(email, "password", "first", "last");
+        User user2 = userService.createUser(email, "password", "first", "two");
 
-        assertNotEquals(UserService.EMAIL_ALREADY_IN_USE, id);
-        assertEquals(UserService.EMAIL_ALREADY_IN_USE, id2);
+        assertNotNull(user);
+        assertNull(user2);
     }
 
     @Test
     public void testGetUserById() {
         String email = "foo@bar.com";
-        Long id = userService.createUser(email, "password", "first", "name");
+        User user = userService.createUser(email, "password", "first", "name");
 
-        User user = userService.getUser(id);
+        User user2 = userService.getUser(user.getId());
 
         assertNotNull(user);
-        assertEquals(id, user.getId());
-        assertEquals(email, user.getEmail());
+        assertEquals(user.getId(), user2.getId());
+        assertEquals(email, user2.getEmail());
     }
 
     @Test

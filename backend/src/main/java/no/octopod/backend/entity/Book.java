@@ -1,30 +1,45 @@
 package no.octopod.backend.entity;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 import org.hibernate.validator.constraints.NotBlank;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 import javax.validation.constraints.Size;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 public class Book {
-    @Id @NotBlank @Size(max = 13)
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    @NotBlank @Size(max = 13)
     private String isbn;
-    
+
     @NotBlank @Size(min = 2, max = 128)
     private String title;
 
-    @NotBlank @ElementCollection
+    @ElementCollection @LazyCollection(LazyCollectionOption.FALSE)
     private List<String> authors;
 
-    @NotBlank @ElementCollection
-    private List<String> courses;
+    private String course;
 
-    @ManyToMany(mappedBy = "booksForSale")
+    @ManyToMany @LazyCollection(LazyCollectionOption.FALSE)
     private List<User> sellers;
+
+    public Book() {
+        authors = new ArrayList<>();
+        sellers = new ArrayList<>();
+    }
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getTitle() {
         return title;
@@ -50,12 +65,12 @@ public class Book {
         this.authors = authors;
     }
 
-    public List<String> getCourses() {
-        return courses;
+    public String getCourse() {
+        return course;
     }
 
-    public void setCourses(List<String> courses) {
-        this.courses = courses;
+    public void setCourse(String course) {
+        this.course = course;
     }
 
     public List<User> getSellers() {
