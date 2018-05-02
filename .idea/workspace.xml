@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324a1b8b-49c4-4b46-bb72-ae6a36ac6f68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7f5529b5-6300-4f21-a24e-507739a8935e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/default-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/sql-map-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/site/site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/site/site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/CoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/CoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/resources/applicationContext-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/resources/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/resources/mail.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/resources/sample-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/resources/sample-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usedbooks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/usedbooks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_de.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_fr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_it.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_ko.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_ko.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_nl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_nl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_no.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_no.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_pt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_pt_BR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt_BR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_tr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_zh.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ApplicationResources_zh_TW.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_TW.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/applicationContext-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/applicationContext-resources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/ehcache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/mail.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/applicationContext-validation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext-validation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/menu-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/menu-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/urlrewrite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/urlrewrite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/validation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/validator-rules-custom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules-custom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/validator-rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/common/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/webapp/common/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/resources/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/resources/login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/resources/sample-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/resources/web-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test/resources/web-tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/PasswordConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/CoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_no.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_tr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ApplicationResources_zh_TW.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/applicationContext-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/mail.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/menu-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/urlrewrite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules-custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/validator-rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/webapp/common/menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/sample-data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test/resources/web-tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usedbooks.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/backend/target/" />
-    <ignored path="$PROJECT_DIR$/frontend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,40 +65,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/usedbooks$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1525268165361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>no.octopod.backend.service.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/Core.java">
+    <leaf>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="184">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/BookService.java">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/MessageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -121,7 +101,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>springframework</find>
+      <find>1.5</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,12 +110,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/usedbooks.iml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/entity/Book.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/AppEntry.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/ResetService.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java" />
+        <option value="$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java" />
       </list>
     </option>
   </component>
@@ -145,58 +127,44 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -204,28 +172,125 @@
             </path>
             <path>
               <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usedbooks" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usedbooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="octopod" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="no.octopod.backend.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,9 +304,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.octopod.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.testCreateDuplicateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.octopod.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testCreateDuplicateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.octopod.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.testCreateUserEmailViolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.octopod.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testCreateUserEmailViolation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.octopod.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.octopod.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="no.octopod.backend.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -258,6 +438,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -281,65 +471,108 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiceTest.testCreateUser" />
+      <item itemvalue="JUnit.UserServiceTest.testCreateDuplicateUser" />
+      <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
+      <item itemvalue="JUnit.UserServiceTest.testCreateUserEmailViolation" />
+      <item itemvalue="JUnit.UserServiceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.testCreateUserEmailViolation" />
+        <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
+        <item itemvalue="JUnit.UserServiceTest.testCreateDuplicateUser" />
+        <item itemvalue="JUnit.UserServiceTest.testCreateUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="324a1b8b-49c4-4b46-bb72-ae6a36ac6f68" name="Default" comment="" />
-      <created>1525256156663</created>
+      <changelist id="7f5529b5-6300-4f21-a24e-507739a8935e" name="Default" comment="" />
+      <created>1525265522326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525256156663</updated>
-      <workItem from="1525256158606" duration="728000" />
-      <workItem from="1525256935504" duration="209000" />
-      <workItem from="1525257355414" duration="266000" />
-      <workItem from="1525257727938" duration="2158000" />
+      <updated>1525265522326</updated>
+      <workItem from="1525265523643" duration="2722000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 10m 39s.xml">
+      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 23m 51s.xml">
+      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateUser - 2018.05.02 at 15h 26m 12s.xml">
+      <configuration name="UserServiceTest.testCreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateDuplicateUser - 2018.05.02 at 15h 26m 17s.xml">
+      <configuration name="UserServiceTest.testCreateDuplicateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateDuplicateUser - 2018.05.02 at 15h 27m 23s.xml">
+      <configuration name="UserServiceTest.testCreateDuplicateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testGetUserById - 2018.05.02 at 15h 32m 44s.xml">
+      <configuration name="UserServiceTest.testGetUserById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateUserEmailViolation - 2018.05.02 at 15h 35m 18s.xml">
+      <configuration name="UserServiceTest.testCreateUserEmailViolation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testCreateUserEmailViolation - 2018.05.02 at 15h 35m 57s.xml">
+      <configuration name="UserServiceTest.testCreateUserEmailViolation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2018.05.02 at 15h 36m 10s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3361000" />
+    <option name="totallyTimeSpent" value="2722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" sideWeight="0.5010593" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" x="3840" y="45" width="1920" height="1035" id="Messages" type="WINDOWED" weight="0.32944915" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" x="4242" y="399" width="1480" height="552" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.24147122" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.171459" />
-      <window_info id="Web" order="2" sideWeight="0.50211865" side_tool="true" weight="0.171459" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.17372881" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32944915" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894068" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,101 +582,180 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/sql-map-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/default-data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.194/h2-1.4.194.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="276">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/AppEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="115">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/entity/Book.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/ResetService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ResetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="690">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/entity/Message.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/CoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/Core.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="1081">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/ServiceTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="276">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/service/MessageService.java">
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/no/octopod/backend/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="928">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/no/octopod/backend/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA|backend</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
