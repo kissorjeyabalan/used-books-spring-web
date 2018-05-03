@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+        xmlns:f="http://xmlns.jcp.org/jsf/core"
+        xmlns:sec="http://www.springframework.org/security/tags"
+        xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+        xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+>
+<ui:composition template="/layout.xhtml">
+    <ui:define name="title">
+        <h:outputText value="UsedBooks - ISBN: #{param['isbn']}"/>
+    </ui:define>
+    <ui:define name="content">
+                <h:dataTable styleClass="full-width" value="#{bookDetailController.getBook(param['isbn'])}" var="book" border="1" id="bookInfoTable">
+                    <h:column>
+                        <f:facet name="header"><h:outputText value="Book info"/></f:facet>
+                        <h:outputText styleClass="bold" value="#{book.title} - #{book.isbn}"/>
+                        <br/>
+                        <h:outputText value="Authors: " styleClass="bold"/> <h:outputText value="#{bookDetailController.getAuthorsAsString(param['isbn'])}"/>
+                        <br/>
+                        <h:outputText value="Course: " styleClass="bold"/> <h:outputText value="#{book.course}"/>
+                        <br/>
+                        <br/>
+                        <h:outputText rendered="#{fn:length(book.sellers) == 0}" styleClass="bold" value="This books has no sellers yet!"/>
+                    </h:column>
+                </h:dataTable>
+        <br/>
+        <c:if test="#{fn:length(bookDetailController.getSellersForBook(param['isbn'])) >= 1}">
+        <div>
+            <p class="bold">SELLERS</p>
+            <c:forEach var="seller" items="#{bookDetailController.getSellersForBook(param['isbn'])}">
+                <p id="sellerId"><h:outputText value="#{seller.firstName}  - "/>
+                    <a href="message.jsf?receiver=#{seller.id}">CONTACT SELLER</a></p>
+            </c:forEach>
+        </div>
+        </c:if>
+    </ui:define>
+</ui:composition>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:c="http://java.sun.com/jsp/jstl/core"
+        xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+>
+
+<ui:composition template="/layout.xhtml">
+    <ui:define name="title">
+        UsedBooks - Message
+    </ui:define>
+    <ui:define name="content">
+        <c:if test="#{!empty param['receiver']}">
+            <h:form id="messageForm">
+                <h:inputTextarea value="#{messageController.formText}" id="createMessage"/>
+                <h:commandButton action="#{messageController.messageUser(param['receiver'])}"
+                                 value="Send Message" id="sendMessageButton"/>
+            </h:form>
+            <hr/>
+            <h:dataTable value="#{messageController.messages}" var="message" border="1" id="messageTable">
+                <h:column>
+                    <f:facet name="header">Time</f:facet>
+                    <h:outputText value="#{message.timestamp}">
+                        <f:convertDateTime pattern="dd/MM/yyy, HH:mm:ss"/>
+                    </h:outputText>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">From</f:facet>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Message</f:facet>
+                    <h:outputText value="#{message.content}"/>
+                </h:column>
+            </h:dataTable>
+        </c:if>
+    </ui:define>
+</ui:composition>
+
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+>
+
+<ui:composition template="/layout.xhtml">
+    <ui:define name="title">
+        UsedBooks - Sign up
+    </ui:define>
+    <ui:define name="content">
+        <h:form prependId="false">
+            <div>
+                <h:panelGroup layout="block" rendered="#{!empty param['error']}">
+                    <h:outputLabel value="Email already in use, or invalid data in form." rendered="#{!empty param['error']}"/>
+                    <br/>
+                </h:panelGroup>
+                <h:outputText value="Email: "/>
+                <h:inputText id="email" value="#{signUpController.email}" class="signup"/>
+                <br/>
+                <h:outputText value="Password: "/>
+                <h:inputText id="password" value="#{signUpController.password}" class="signup"/>
+                <br/>
+                <h:outputText value="Firstname: "/>
+                <h:inputText id="firstname" value="#{signUpController.firstName}" class="signup"/>
+                <br/>
+                <h:outputText value="Lastname: "/>
+                <h:inputText id="lastname" value="#{signUpController.lastName}" class="signup"/>
+                <br/>
+                <h:commandButton id="submit" value="Sign up!" action="#{signUpController.signUp}" class="signUpBtn"/>
+            </div>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

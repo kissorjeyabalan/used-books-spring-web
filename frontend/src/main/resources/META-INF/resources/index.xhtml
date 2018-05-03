@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:sec="http://www.springframework.org/security/tags"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:c="http://xmlns.jcp.org/jsp/jstl/core" xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+>
+
+<ui:composition template="/layout.xhtml">
+    <ui:define name="title">
+        UsedBooks - Home
+    </ui:define>
+    <ui:define name="content">
+        <h2>Currently available books:</h2>
+        <hr/>
+        <c:if test="#{bookController.getAvailableBooks().size() == 0}">
+            <h3 id="noBooksForSaleId">There is currently no books available for sale!</h3>
+            <sec:authenticated>
+                <br/>
+                <a id="linkToSellBook" href="sellbook.jsf">Would you like to place one for sale?</a>
+            </sec:authenticated>
+        </c:if>
+        <c:if test="#{bookController.getAllBooks().size() != 0}">
+            <h:dataTable value="#{bookController.getAllBooks()}" var="book" border="1" id="bookTable">
+                <h:column>
+                    <f:facet name="header">Book</f:facet>
+                    <h:outputText id="title" value="#{book.title}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Course</f:facet>
+                    <h:outputText id="course" value="#{book.course}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Available sellers</f:facet>
+                    <h:outputText id="sellers" value="#{fn:length(book.sellers)}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Details</f:facet>
+                    <h:link value="More info..." outcome="details.jsf" id="moreInfo">
+                        <f:param name="isbn" value="#{book.isbn}"/>
+                    </h:link>
+                </h:column>
+                <sec:authenticated>
+                    <h:column>
+                        <f:facet name="header">Action</f:facet>
+                        <h:form id="toggleBookSaleForm">
+                            <h:commandButton action="#{bookController.toggleSeller(userInfoController.userId, book.id)}"
+                                             value="TOGGLE SALE" id="toggleSale"/>
+                        </h:form>
+                    </h:column>
+                </sec:authenticated>
+            </h:dataTable>
+        </c:if>
+    </ui:define>
+</ui:composition>
+</html>
